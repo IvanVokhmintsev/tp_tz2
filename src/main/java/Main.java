@@ -48,7 +48,7 @@ public class Main {
     }
 
     static long findMax(ArrayList<Long> numbers) {
-        return Collections.max(numbers);
+        return Collections.max(numbers) + 1;
     }
 
     static long findSum(ArrayList<Long> numbers) {
