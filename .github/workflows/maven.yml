@@ -28,5 +28,5 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Install dependencies and run tests
-      run: mvn clean install
+      run: mvn --batch-mode --update-snapshots verify
 
